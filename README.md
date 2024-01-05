@@ -53,7 +53,14 @@ Link youtube nya di detik jawaban ini
 
 ## 9. Bagaimana algoritma, struktur data, dan bahasa pemrograman berperan dalam produk teknologi informasimu ?
 
-Link youtube nya di detik jawaban ini
+Algoritma yang digunakan dalam game ini sangat sederhana, menggunakan bahasa pemrograman Java dan Java Swing untuk membangun antarmuka grafis. Berikut adalah proses pengembangan algoritma:
+
+Inisialisasi komponen awal seperti teks area untuk menampilkan informasi, tombol untuk mengatur mulai game, naik level, dan tombol keluar.
+Saat tombol "Start" diklik, aplikasi akan menginisialisasi objek pemain dan menjalankan metode countdown. Metode countdown menggunakan Timer dari Java Swing untuk menjalankan proses per tick, misalnya mengecek jika pemain sudah berada di kanvas.
+Saat pemain berada di kanvas, pergerakan mouse akan mengatur titik koordinat kanvas dan pemain. Selain itu, algoritma juga akan mengatur score berdasarkan jumlah tahan pemain terhadap objek yang dihasilkan.
+Saat tombol "Level Up" diklik, aplikasi akan mengecek apakah kriteria untuk naik level sudah terpenuhi atau belum. Jika sudah, aplikasi akan meningkatkan level, mereset score, dan mengatur ulang game.
+Untuk tombol "Exit", aplikasi akan menghentikan semua proses dan keluar dari aplikasi.
+Secara keseluruhan, algoritma yang digunakan pada game ini sangat sederhana dan menggantungkan pada fungsi dasar Java Swing. Untuk pengembangan lebih lanjut, algoritma ini bisa diperluas dengan fitur baru, misalnya menambahkan animasi, objek yang lebih bervariasi, atau fitur yang meningkatkan pengalaman bermain pengguna.
 
 ## 10. Bagaimana metode pengembangan perangkat lunak / Software Development Life Cycle berperan dalam produk teknologi informasimu ?
 
